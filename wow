@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>자바 내용준비</title>
+<style>
+
+</style>
+  </head>
+  <body>
+   <input type="button" value="hi" onclick="alert('hi')">
+   <input type="text" onchange="alert('changed')">
+   <input type="button" value="balck" onclick="
+   document.queryselctoy('body').style.backgroundcolor='black';
+   document.queryselctoy('body').style.color='white';
+   ">
+   <input type="button" value="white" onclick="
+   document.queryselctoy('body').style.backgroundcolor='white';
+   document.queryselctoy('body').style.color='black';
+   ">
+  </body>
+  </html>
+
+<!doctype html>
+<html>
+<head>
+ <title>Introduce myself - html</title>
+ <meta charset="utf-8">
+ <style>
+ body{margin:0;}
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  h1{
+    font-size:60px;text-align:center;
+    border-bottom:3px solid blue;
+    border-style: inset;
+    margin:0;
+    padding:20px;
+    background-color: rgba(117, 190, 218, 0.5);
+    font-family: cursive;
+  }
+  ol{
+    border-right:2px solid blue;
+    width:160px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 220px 1fr  ;
+    border:5px solid blue;
+  }
+  #article{
+  text-align: center;
+  }
+ </style>
+</head>
+<body>
+<h1><a href="index.html">Introduce myself</a></h1>
+<div id="grid">
+ <ol>
+   <li><a href="1.html">나란 존재 인적 사항</a></li>
+   <li><a href="2.html">나란 존재 성격 습관</a></li>
+   <li><input type="button" value="나란 존재 좋아하는 짓" onclick="alert('내용바꾸고 표넣다가 망했어요')"></li>
+   <li><a href="4.html">나의 인터넷 박제</a></li>
+   <li><a href="5.html">뭐일지 궁금해??</a></li>
+</ol>
+ <div id="article">
+ <h2>갑자기 홈페이지를 바꿨어요. </h2>
+ <p>
+ 왜냐고요? 그냥 바꾸고싶어서 내용만 바꿨어요 홈페이지가 허접해요.<br>
+  근데 저중요한건 전에는 이것보다 더 허접이였어요 내용이 정말 없었거든요<br>
+  님들눈에는 허접할텐데 그래도 그냥 재미로 봐요. 진짜 공부 뭣같은데 떼려치고 싶어요ㅠ 쨌든 가시죠.
+ </div>
+</div>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+ <title>나란 존재 인적 사항 - html</title>
+ <meta charset="utf-8">
+ <style>
+ body{margin:0;
+ background-color: rgb(127,255,212);}
+
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  h1{
+    font-size:60px;text-align:center;
+    border-bottom:3px solid rgb(127,255,212);
+    border-style: inset;
+    margin:0;
+    padding:20px;
+    background-color: rgba(117, 190, 218, 0.5);
+    font-family: cursive;
+  }
+ h2{
+   font-size:40px; text-align: center;
+   margin-top:5px;
+ }
+ hr {
+    margin: 0 30px;
+}
+.profile {
+    background-color: white;
+    border-top: 10px solid #6b5892;
+    border-bottom: 10px solid #6b5892;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 900px;
+
+    text-align: center;
+}
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 75px;
+    margin-top: -100px;
+}
+
+
+ </style>
+</head>
+<body>
+<h1><a href="index.html">Introduce myself</a></h1>
+<br><br><br><br><br><br><h2>
+  <div class="profile">
+          <img src="bum.jpg" class="profile-image">
+          <h1>김범윤</h3>
+          <hr>
+          <ul class="text">
+              <li>1998년 10월 20일 경기도 과천 출생</li>
+              <li>171cm 67kg O형 ESTP</li>
+              <li>21년도 학생회 체육차장, 캐러빔 훈련부장 위임</li>
+          </ul>
+      </div>
+</h2>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+ <title>나란 존재 성격 습관 - html</title>
+ <meta charset="utf-8">
+ <style>
+ body{margin:0;
+  background-color: rgb(127,255,212);}
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  h1{
+    font-size:60px;text-align:center;
+    border-bottom:3px solid blue;
+    border-style: inset;
+    margin:0;
+    padding:20px;
+    background-color: rgba(117, 190, 218, 0.5);
+    font-family: cursive;
+  }
+  h2{
+    font-size:50px; text-align:center;
+    font-family: fantasy;
+  }
+  h3{
+    font-size:45px; text-align:center;
+    font-family: sans-serif;
+  }
+  ol{
+    border-right:1px solid blue;
+    width:300px;
+    margin:0;
+    padding:5px;
+    text-align: center;
+    list-style-type: circle;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border:5px solid blue;
+      text-align: center;
+      padding-left: 0px;
+      margin-left: 0px;
+  }
+  #article{
+  text-align: center;
+   margin-left:0px;
+  }
+  #shit{
+  text-align: center;
+   padding-left: 0px;
+  }
+  #holy ol{
+  text-align: center;
+   padding-left: 0px;
+   border-right: 0px;
+  }
+ </style>
+</head>
+<body>
+<h1><a href="index.html">Introduce myself</a></h1>
+<div id="grid">
+   <ol><h2>E(외향성)</h2>
+     <li>사람만나는거 좋아하고 </li>
+     <li>대외활동 하는것을 좋아하고 </li>
+     <li>말이 굉장히 많고 </li>
+     <li>제멋대로이며 마이웨이입니다. </li>
+     <li>선입견이없고 뒷끝도 없어요. </li>
+   </ol>
+ <div id="article">
+   <ol><h2>S(감각성)</h2>
+     <li>감정을 필터링 없이 있는 그대로 표현하여 상대방이 상처를 받을 수 있다. </li>
+     <li>이성을 볼때 은근히 외모지상주의 경향이 있다.</li>
+     <li>생각이 단순하며 깊게 생각하는 것이 어렵다.</li>
+     <li>흥미 위주의 욕구(경쟁, 게임 등)가 많다.</li>
+     <li>스릴을 좋아한다.</li>
+   </ol>
+ </div>
+ <div id="shit">
+   <ol><h2>T(사고형)</h2>
+     <li>자기 자신 스스로가 정한 도덕적 잣대에 따라 사고하고 행동한다.</li>
+     <li>타고난 해결사로써 문제를 해결하는 능력이 타의 추종을 불허한다.</li>
+     <li>충동적인 성향이 강하다.</li>
+     <li>현실적인 계산이 눈에 보인다.</li>
+     <li>자신을 통제하려 들거나 자신의 머리 위에 군림하려 드는 사람을 싫어한다.</li>
+   </ol>
+ </div>
+ <div id="holy">
+   <ol><h2>P(인식형)</h2>
+     <li>새로운 것에 대한 도전 욕구가 강하다.</li>
+     <li>주위의 사람이나 일어나는 일에 관심이 많다.</li>
+     <li>타인에게 선입견이 별로 없고 개방적이다.</li>
+     <li>이미 주변 팀원들 대다수가 ESTP로 하여금 리더가 되기를 원한다.(그만^^)</li>
+     <li>은유적인 방식으로 말을 하면 곧이 곧대로 받아들이거나 답답해한다.</li>
+   </ol>
+ </div>
+</div>
+<h3><a href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95"> MBTI이란?</a>  </h3  >
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+ <title>Introduce myself - html</title>
+ <meta charset="utf-8">
+ <style>
+ body{margin:0;}
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  h1{
+    font-size:60px;text-align:center;
+    border-bottom:3px solid blue;
+    border-style: inset;
+    margin:0;
+    padding:20px;
+    background-color: rgba(117, 190, 218, 0.5);
+    font-family: cursive;
+  }
+  ol{
+    border-right:2px solid blue;
+    width:160px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 220px 1fr  ;
+    border:5px solid blue;
+  }
+  #grid article{
+  text-align: center;
+   padding-left: 100px;
+  }
+ </style>
+</head>
+<body>
+<h1><a href="index.html">Introduce myself</a></h1>
+<table border="1">
+		<caption>나의 취미들</caption>
+			<thead>
+				<tr><th colspan="2">농구</th><th colspan="2">롤</th><th colspan="2">원랜디</th></tr>
+			</thead>
+			<tbody>
+				<tr><td colspan="2"><img src="basket.jpg" style="width: 400px; height: 300px;"></td><td colspan="2"><img src="http://imgnews.naver.com/image/008/2016/07/26/2016072616590260429_1_99_20160726192208.jpg" style="width: 400px; height: 300px;"></td><td colspan="2"><img src="http://postfiles5.naver.net/20140815_116/beaucutegirl_14080788519358aDTm_JPEG/IMG_7678.jpg?type=w2" style="width: 400px; height: 300px;"></td></tr>
+				<tr><td><a href="https://www.facebook.com/yejunghwa" target="_blank"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fdbscthumb.phinf.naver.net%2F0727_000_4%2F20150825185915841_HDGGUK0RI.jpg%2F9B14D4D14D0BE6A2.jpg%3Ftype%3Dm120_120&amp;type=mfullfill85_85_black" style="width: 100px; height: 100px;"></a></td><td><a href="https://www.instagram.com/yejunghwa/" target="_blank"><img src="https://cafeptthumb-phinf.pstatic.net/MjAxNjEyMjNfMjM1/MDAxNDgyNDU0MTY1MjM3.LKPnze1brn8MnI0QIT-eylifdKDbsZI40XhbPnjNZy0g.M4NfNKnaYF945xDYxzgvOEsM9NLfg-quDdVLbDDqff0g.PNG.tiny_waves/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8%EB%A1%9C%EA%B3%A0.png?type=w740" style="width: 100px; height: 100px;"></a></td><td><a href="https://www.facebook.com/kangsorafan" target="_blank"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fdbscthumb.phinf.naver.net%2F0727_000_4%2F20150825185915841_HDGGUK0RI.jpg%2F9B14D4D14D0BE6A2.jpg%3Ftype%3Dm120_120&amp;type=mfullfill85_85_black" style="width: 100px; height: 100px;"></a></td><td><a href="https://www.instagram.com/reveramess_/" target="_blank"> <img src="https://cafeptthumb-phinf.pstatic.net/MjAxNjEyMjNfMjM1/MDAxNDgyNDU0MTY1MjM3.LKPnze1brn8MnI0QIT-eylifdKDbsZI40XhbPnjNZy0g.M4NfNKnaYF945xDYxzgvOEsM9NLfg-quDdVLbDDqff0g.PNG.tiny_waves/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8%EB%A1%9C%EA%B3%A0.png?type=w740" style="width: 100px; height: 100px;"></a></td><td><a href="https://www.facebook.com/%EC%86%8C%EC%A7%84-1514215438793861/" target="_blank"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fdbscthumb.phinf.naver.net%2F0727_000_4%2F20150825185915841_HDGGUK0RI.jpg%2F9B14D4D14D0BE6A2.jpg%3Ftype%3Dm120_120&amp;type=mfullfill85_85_black" style="width: 100px; height: 100px;"></a></td><td><a href="https://www.instagram.com/ssozi_sojin/" target="_blank"><img src="https://cafeptthumb-phinf.pstatic.net/MjAxNjEyMjNfMjM1/MDAxNDgyNDU0MTY1MjM3.LKPnze1brn8MnI0QIT-eylifdKDbsZI40XhbPnjNZy0g.M4NfNKnaYF945xDYxzgvOEsM9NLfg-quDdVLbDDqff0g.PNG.tiny_waves/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8%EB%A1%9C%EA%B3%A0.png?type=w740" style="width: 100px; height: 100px;"></a></td>
+			</tr></tbody>
+	</table>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+ <title>나의 인터넷 박제 - html</title>
+ <meta charset="utf-8">
+ <style>
+ body{margin:0;}
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  h1{
+    font-size:60px;text-align:center;
+    border-style: inset;
+    margin:0;
+    padding:20px;
+    background-color: rgba(117, 190, 218, 0.5);
+    font-family: cursive;
+  }
+  #best{
+    text-align: center;
+  }
+ </style>
+</head>
+<body>
+<h1><a href="index.html">Introduce myself</a></h1>
+<div id="best">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/cJBl5oXToxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>2018년 삼다수배 3대3대회 최고의 경기ㅎㅎ
+  <p>
+    <p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/glGQuFfK0rs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p> 내생에 최악의 경기중 하나
+</div>
+</body>
+</html>
